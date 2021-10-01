@@ -10,8 +10,8 @@
             $this->lado2 = $lado2;
         }
 
-        public function sumar_lados(){
-            return ($this->lado1 + $this->lado2);
+        public function calcular_superficie(){
+            return ($this->lado1 * $this->lado2);
         }
 
     }
