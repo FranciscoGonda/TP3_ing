@@ -5,6 +5,6 @@
         $calculo = new calcular($_POST['lado1'], $_POST['lado2']);
     }
     
-    $datos = $calculo->calcular_superficie();
-    echo 'la superficie del cuadrado es: '.($datos);
+    $datos = $calculo->sumar_lados();
+    echo 'la suma de los lados es: '.($datos);
 ?>
